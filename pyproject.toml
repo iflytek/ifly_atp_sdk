@@ -1,6 +1,6 @@
 [tool.poetry]
-name = "ifly_atp"
-version = "1.0.0"
+name = "ifly_atp_sdk"
+version = "0.1.0"
 description = "an sdk for iflytek atp"
 authors = ["ybyang <ybyang7@iflytek.com>"]
 
