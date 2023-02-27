@@ -1,7 +1,7 @@
-from ifly_atp_sdk import __version__
+from atp import __version__
 
-from ifly_atp_sdk.client import Client
-from ifly_atp_sdk.config import VOICE2VEC, AV2VEC
+from atp.client import Client
+from atp.config import VOICE2VEC, AV2VEC
 
 
 def test_version():

@@ -95,7 +95,7 @@ def pipeline(
     if os.path.exists(local_path):
         model = local_path
     return t_pipeline(task=task, model=model, config=config, tokenizer=tokenizer, feature_extractor=feature_extractor,
-                    framework=framework
-                    , revision=revision, use_fast=use_fast, use_auth_token=use_auth_token, device=device,
-                    device_map=device_map, torch_dtype=torch_dtype, trust_remote_code=trust_remote_code,
-                    model_kwargs=model_kwargs, pipeline_class=pipeline_class, **kwargs)
+                      framework=framework, revision=revision, use_fast=use_fast, use_auth_token=use_auth_token,
+                      device=device,
+                      device_map=device_map, torch_dtype=torch_dtype, trust_remote_code=trust_remote_code,
+                      model_kwargs=model_kwargs, pipeline_class=pipeline_class, **kwargs)

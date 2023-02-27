@@ -30,11 +30,11 @@
 #  Etiam sed turpis ac ipsum condimentum fringilla. Maecenas magna.
 #  Proin dapibus sapien vel ante. Aliquam erat volutpat. Pellentesque sagittis ligula eget metus.
 #  Vestibulum commodo. Ut rhoncus gravida arcu.
-from ifly_atp.config import *
-from ifly_atp.error import *
-from ifly_atp.utils.aipass_client import execute
-from ifly_atp.utils.ne_utils import build_auth_request_url, get_file_bytes
-from ifly_atp.utils.log import log
+from atp.config import *
+from atp.error import *
+from atp.utils.aipass_client import execute
+from atp.utils.ne_utils import build_auth_request_url, get_file_bytes
+from atp.utils.log import log
 import base64
 import copy
 from urllib import parse

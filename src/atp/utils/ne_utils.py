@@ -8,7 +8,7 @@ from time import mktime
 from urllib.parse import urlencode
 from wsgiref.handlers import format_date_time
 
-from ifly_atp.utils.exception import FileNotFoundException, AssembleHeaderException
+from atp.utils.exception import FileNotFoundException, AssembleHeaderException
 from urllib import parse
 
 

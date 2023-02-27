@@ -5,7 +5,7 @@ import json
 import requests
 import jsonpath_rw
 
-from ifly_atp.utils import ne_utils
+from atp.utils import ne_utils
 # from data import response_path_list
 from urllib import parse
 
